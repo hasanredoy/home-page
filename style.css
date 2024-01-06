@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(bacground\ full.avif);
+  width: 100%;
+}
+
+/* header */
+
+header{
+  background-color: rgb(17, 17, 17);
+  position: sticky;
+  left: 0;
+  top: 5px;
+  display: flex; 
+  justify-content: center;
+  z-index: 999;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  margin: auto auto;
+  
+}
+
+nav li{
+  list-style: none;
+  color: rgb(44, 97, 86);
+  padding: 5px 25px;
+  font-size: 25px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: rgb(223, 19, 206);
+  font-size: 25px;
+}
+
+nav li a:hover{
+  text-decoration:underline solid gold;
+  color: rgba(226, 131, 7, 0.63);
+}
+
+img{
+  /* position: absolute; */
+  margin-right: 20px;
+  /* opacity: 0.8; */
+}
+
+/* main */
+
+main{
+  background-image: url(background.jpg);
+  background-size: cover;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+h2{
+  text-align: center;
+  margin: 20px;
+  color: lightyellow;
+  font-size: 35px;
+}
+  .figone{
+    margin-left: 10px;
+  }
+.figtwo{
+  margin-left: auto;
+  margin-right: 5px;
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.figthree{
+   margin-left: 10px;
+}
+
+
+figcaption{
+  font-size: 25px;
+  color: burlywood;
+  font-weight: 900;
+}
+
